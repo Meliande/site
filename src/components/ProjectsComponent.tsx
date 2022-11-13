@@ -39,7 +39,7 @@ import Image from "next/image";
             >
                 {
                     projectList.map(project => (
-                        <div className="p-5 flex-col  text-center bg-slate-800">
+                        <div key={project.name} className="p-5 flex-col  text-center bg-slate-800">
 
                             <Image
                                 className="object-none object-center"

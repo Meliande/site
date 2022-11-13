@@ -8,7 +8,7 @@ export default function Skills() {
             <div className="pt-8 grid grid-cols-2 gap-3 pb-10 lg:grid-cols-3">
             {
                 SkillList.map(skill => (
-                    <div className="p-1 rounded-2xl bg-[#662E9B]">
+                    <div key={skill} className="p-1 rounded-2xl bg-[#662E9B]">
                         {skill}
                     </div>
                 ))

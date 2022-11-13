@@ -12,6 +12,7 @@ export default function Sidebar() {
                 target="_blank"
                 className=""
                 href="https://github.com/Meliande"
+                rel="noreferrer"
             >
                 <Image
                     className="py-2 rounded-full hover:scale-125"
@@ -25,6 +26,7 @@ export default function Sidebar() {
                 target="_blank"
                 className=""
                 href="https://www.linkedin.com/in/rodrigo-meliande-081433128"
+                rel="noreferrer"
             >
                 <Image
                     className="py-2 rounded-full hover:scale-125"
@@ -38,6 +40,7 @@ export default function Sidebar() {
                 target="_blank"
                 className=""
                 href="https://twitter.com/MeliandeRodrigo"
+                rel="noreferrer"
             >
                 <Image
                     className="py-2 hover:scale-125"
@@ -63,6 +66,7 @@ export default function Sidebar() {
                 target="_blank"
                 className=""
                 href="https://api.whatsapp.com/send?phone=5571992201640"
+                rel="noreferrer"
             >
                 <Image
                     className="py-2 hover:scale-125"

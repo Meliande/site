@@ -24,6 +24,7 @@ export default function Footer() {
                     className="px-2 hover:scale-110"
                     href="https://github.com/Meliande"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <Image
                         src={GitHubLogo}
@@ -36,6 +37,7 @@ export default function Footer() {
                     className="px-2 hover:scale-110"
                     href="https://www.linkedin.com/in/rodrigo-meliande-081433128"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <Image
                         src={LinkedinLogo}
@@ -48,6 +50,7 @@ export default function Footer() {
                     className="px-2 hover:scale-110"
                     href="https://twitter.com/MeliandeRodrigo"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <Image
                         src={TwitterLogo}
