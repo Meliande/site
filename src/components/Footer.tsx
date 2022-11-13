@@ -9,7 +9,7 @@ import WhatsappLogo from '/public/whatsapp.png'
 
 export default function Footer() {
     return (
-        <div className="flex bg-[#6E4555] font-mono text-sm text-black w-screen h-10 overflow-hidden justify-center">
+        <div className="flex bg-[#546A76] font-mono text-sm text-black w-screen h-10 overflow-hidden justify-center">
             <div className="pt-3">
                 © Copyright 2022. Made by 
                 <Link

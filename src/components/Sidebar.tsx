@@ -7,7 +7,7 @@ import WhatsappLogo from '/public/whatsapp.png'
 
 export default function Sidebar() {
     return (
-        <aside className=" bg-[#E8B4BC] p-3 absolute top-1/4 rounded-full invisible md:visible">  
+        <aside className=" bg-[#546A76] p-3 absolute top-1/4 rounded-full invisible md:visible">  
             <a
                 target="_blank"
                 className=""

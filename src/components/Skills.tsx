@@ -1,14 +1,16 @@
 export default function Skills() {
 
-    const hardSkillList = ['HTML','CSS','JavaScript','Node','NextJS','React','SASS','GIT','Github','Linux','Terminal','SQL','NoSQL','TailwindCSS','Prisma','REST','ReactNative']
+    const SkillList = ['CSS','GIT','Github','HTML','JavaScript','Linux','NextJS','NoSQL','Node','Prisma','REST','React','ReactNative','SASS','SQL','TailwindCSS','Terminal']
 
     return(
-        <div>
-            <h1 className="font-bold text-2xl pb-6 text-center text-[#6B2737]">Minhas habilidades</h1>
-            <div className="grid grid-cols-2 gap-3 pb-10 lg:grid-cols-3">
+        <div className="font-bold">
+            <h1 className="">Minhas habilidades</h1>
+            <div className="pt-8 grid grid-cols-2 gap-3 pb-10 lg:grid-cols-3">
             {
-                hardSkillList.map(skill => (
-                    <strong className="bg-[#6B2737] rounded-xl text-md text-center">{skill}</strong>
+                SkillList.map(skill => (
+                    <div className="p-1 rounded-2xl bg-[#662E9B]">
+                        {skill}
+                    </div>
                 ))
             }
             </div>

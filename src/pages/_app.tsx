@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-  <div className='bg-[#F5E3E0] h-screen scroll-smooth'>
+  <div className='bg-[#DBD3C9] h-screen scroll-smooth'>
     <div className=''>
       <Header/>
     </div>
