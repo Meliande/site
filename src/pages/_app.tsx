@@ -5,16 +5,10 @@ import Footer from '../components/Footer'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-  <div className='bg-[#DBD3C9] h-screen scroll-smooth'>
-    <div className=''>
+  <div className='bg-slate-100 h-full justify-between'>
       <Header/>
-    </div>
-    <div>
       <Component {...pageProps} />
-    </div>
-    <div className='absolute bottom-0 invisible lg:visible'>
       <Footer/>
-    </div>
   </div>
   )
 }

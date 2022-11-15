@@ -1,13 +1,12 @@
 import Link from "next/link";
-import Example from "../components/ProjectsComponent";
 import Sidebar from "../components/Sidebar";
 
 
 export default function Home() {
   return(
-    <div className=''>
+    <div className='h-screen'>
         <Sidebar/>
-        <div className="pt-28 grid place-items-center">
+        <div className="pt-20 grid place-items-center">
                 <h1 className="text-5xl font-bold">Olá, eu sou Rodrigo Meliande</h1>
                 <p className="pt-9 text-center text-xl break-words px-96">
                     Um desenvolvedor web e mobile que busca ajudar no sucesso da sua companhia através das aplicações que desenvolve

@@ -1,11 +1,35 @@
 export default function AboutComponent() {
+
+    const Skills = ['CSS','GIT','Github','HTML','JavaScript','Linux','NextJS','NoSQL','Node','Prisma','REST','React','ReactNative','SASS','SQL','TailwindCSS','Terminal']
+    const backSkills = ['NextJS','NoSQL','Node','Prisma','SQL']
+    const fronSkills = ['CSS','HTML','JavaScript','React','ReactNative','SASS','TailwindCSS']
+    const softSkills = ['GIT','Github','Linux','REST','Terminal']
+
     return(
         <div className="font-bold">
-            <h1 className="">Me conheça</h1>
-            <p className="">
-                Um desenvolvedor
-            </p>
-            <button className="p-5 bg-[#662E9B] rounded-2xl hover:scale-110 transition duration-300">PROJETOS</button>
+            <div className="grid grid-cols-5 gap-2">
+                {
+                    fronSkills.map(skill => (
+                        <div className="bg-[#B4CEB3] rounded-lg">
+                            {skill}
+                        </div>
+                    ))
+                }
+                {
+                    backSkills.map(skill => (
+                        <div className="bg-[#88A0A8] rounded-lg">
+                            {skill}
+                        </div>
+                    ))
+                }
+                {
+                    softSkills.map(skill => (
+                        <div className="bg-[#FAD4D8] rounded-lg">
+                            {skill}
+                        </div>
+                    ))
+                }
+            </div>
          </div>
     )
 }
