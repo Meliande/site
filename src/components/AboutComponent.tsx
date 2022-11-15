@@ -7,7 +7,7 @@ export default function AboutComponent() {
 
     return(
         <div className="font-bold">
-            <div className="grid grid-cols-5 gap-2">
+            <div className="grid grid-cols-2 gap-2 xl:grid-cols-5">
                 {
                     fronSkills.map(skill => (
                         <div key={skill} className="bg-[#B4CEB3] rounded-lg">

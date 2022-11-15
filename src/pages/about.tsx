@@ -16,7 +16,7 @@ export default function About() {
       }
 
     return(
-        <div className="px-28 py-8 grid grid-cols-2 gap-5 text-center">
+        <div className="px-28 py-8 grid grid-cols-1 gap-5 text-center xl:grid-cols-2">
             <div className="flex-col">
                 <p className="pb-5">
                     Sou um desenvolvedor full stack, apaixonado de todo o ecossistema <strong>JavaScript</strong> 
