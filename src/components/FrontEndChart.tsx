@@ -26,7 +26,7 @@ ChartJS.register(
 import { Radar } from 'react-chartjs-2';
 
   const fronSkills = ['CSS','HTML','JavaScript','React','ReactNative','SASS','TailwindCSS']
-  const SKillValues = [10,9,8,7,6,5,4]
+  const SKillValues = [8,9,9,8,7,8,9]
 
   const data = {
     labels: fronSkills,
@@ -35,10 +35,10 @@ import { Radar } from 'react-chartjs-2';
         label: 'FrontEnd',
         data: SKillValues,
         borderWidth: 3,
-        backgroundColor: '#B4CEB3',
+        backgroundColor: '#64748b',
+        fill: true,
       },
-    ],
-    
+    ], 
   };
 
 export default function FrontEndChart(){

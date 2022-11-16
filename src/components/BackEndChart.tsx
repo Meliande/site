@@ -26,7 +26,7 @@ ChartJS.register(
 import { Radar } from 'react-chartjs-2';
 
   const SkillList = ['NextJS','NoSQL','Node','Prisma','SQL']
-  const SKillValues = [9,10,1,2,3]
+  const SKillValues = [8,7,8,8,9]
 
   const data = {
     labels: SkillList,
@@ -35,7 +35,9 @@ import { Radar } from 'react-chartjs-2';
         label: 'BackEnd',
         data: SKillValues,
         borderWidth: 3,
-        backgroundColor: '#881337',
+        backgroundColor: '#ec4899',
+        fill: true,
+
       },
     ],
   };

@@ -26,7 +26,7 @@ ChartJS.register(
 import { Radar } from 'react-chartjs-2';
 
   const softSkills = ['GIT','Github','Linux','REST','Terminal']
-  const SKillValues = [10,9,8,7,6]
+  const SKillValues = [8,8,9,7,9]
 
   const data = {
     labels: softSkills,
@@ -35,7 +35,8 @@ import { Radar } from 'react-chartjs-2';
         label: 'MiscSkills',
         data: SKillValues,
         borderWidth: 3,
-        backgroundColor: '#881337',
+        backgroundColor: '#10b981',
+        fill: true,
       },
     ]
   };
