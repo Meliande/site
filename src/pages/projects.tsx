@@ -1,8 +1,30 @@
+import Image from "next/image";
+import NlwCopa from "public/nlw-copa.png"
+import NlwEsports from "public/nlw-esports.png"
+import Bolsis from "public/bolsis.png"
+
 export default function Projects() {
 
     return(
-        <div className="pt-20 text-center text-2xl h-screen">
-            Essa seção ainda está em desenvolvimento, por enquanto dá uma olhada no meu <a target="_blank" rel="noreferrer" href="https://github.com/Meliande" className="font-bold underline">github</a> para ver os projetos que já realizei. 
+        <div className="text-center grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 h-full">
+            <div>
+                <Image
+                    src={NlwCopa}
+                    alt=""
+                />
+            </div>
+            <div>
+                <Image
+                    src={NlwEsports}
+                    alt=""
+                />
+            </div>
+            <div>
+                <Image
+                    src={Bolsis}
+                    alt=""
+                />
+            </div>
         </div>
     )
 }

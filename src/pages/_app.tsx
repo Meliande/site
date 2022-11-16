@@ -5,10 +5,13 @@ import Footer from '../components/Footer'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-  <div className='bg-slate-100 h-full justify-between'>
+  <div className=''>
       <Header/>
       <Component {...pageProps} />
-      <Footer/>
+      <div className='relative bottom-0'>
+        <Footer/>
+      </div>
+
   </div>
   )
 }

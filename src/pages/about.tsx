@@ -27,7 +27,7 @@ export default function About() {
                 <div className="font-bold grid grid-cols-3 gap-5">
                     <button className="bg-[#B4CEB3] rounded-xl hover:scale-105 hover:text-white focus:scale-110 focus:text-white" onClick={clickHandler("FrontEnd")}>FrontEnd</button>
                     <button className="bg-[#88A0A8] rounded-xl hover:scale-105 hover:text-white focus:scale-110 focus:text-white" onClick={clickHandler("BackEnd")}>BackEnd</button>
-                    <button className="bg-[#FAD4D8] rounded-xl hover:scale-105 hover:text-white focus:scale-110 focus:text-white" onClick={clickHandler("SoftSkills")}>SoftSkills</button>
+                    <button className="bg-rose-900 rounded-xl hover:scale-105 hover:text-white focus:scale-110 focus:text-white" onClick={clickHandler("SoftSkills")}>MiscSkills</button>
                 </div>
                 <div className="">
                     {

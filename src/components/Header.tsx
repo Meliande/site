@@ -6,10 +6,10 @@ import Image from 'next/image'
 export default function Header() {
 
     return (
-        <div className="bg-[#546A76] font-bold flex justify-between py-2 px-10">
+        <div className="bg-zinc-500 font-bold flex justify-between py-2 px-10 h-10 md:h-auto">
 
             <Link
-                className="flex overflow-hidden hover:text-[#B4CEB3] focus:text-[#B4CEB3] transition duration-500 invisible md:visible"
+                className="flex overflow-hidden hover:text-amber-200 focus:text-amber-200 transition duration-500 invisible md:visible"
                 href='/'
             >
                 <Image
@@ -22,15 +22,15 @@ export default function Header() {
                 <span className="pt-1.5 pl-5 text-2xl">Rodrigo Meliande</span> 
             </Link>
 
-            <div className="pt-1.5 flex">
+            <div className="flex">
                 <Link 
-                    className="px-5 text-2xl hover:text-[#B4CEB3] focus:text-[#B4CEB3] transition duration-500" href='/'>Home
+                    className="px-5 text-2xl hover:text-amber-200 focus:text-amber-200 transition duration-500" href='/'>Home
                 </Link>
                 <Link 
-                    className="px-5 text-2xl hover:text-[#B4CEB3] focus:text-[#B4CEB3] transition duration-500" href='/about'>Sobre
+                    className="px-5 text-2xl hover:text-amber-200 focus:text-amber-200 transition duration-500" href='/about'>Sobre
                 </Link>
                 <Link 
-                    className="px-5 text-2xl hover:text-[#B4CEB3] focus:text-[#B4CEB3] transition duration-500" href='/projects'>Projetos
+                    className="px-5 text-2xl hover:text-amber-200 focus:text-amber-200 transition duration-500" href='/projects'>Projetos
                 </Link>
             </div>
         </div>

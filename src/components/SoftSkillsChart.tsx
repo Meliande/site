@@ -32,15 +32,15 @@ import { Radar } from 'react-chartjs-2';
     labels: softSkills,
     datasets: [
       {
-        label: 'SoftSkills',
+        label: 'MiscSkills',
         data: SKillValues,
         borderWidth: 3,
-        backgroundColor: '#FAD4D8',
+        backgroundColor: '#881337',
       },
     ]
   };
 
-export default function SoftSkillsChart(){
+export default function MiscSkillsChart(){
 
   return (
       <Radar data={data}/>

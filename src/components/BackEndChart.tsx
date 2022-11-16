@@ -35,7 +35,7 @@ import { Radar } from 'react-chartjs-2';
         label: 'BackEnd',
         data: SKillValues,
         borderWidth: 3,
-        backgroundColor: '#88A0A8',
+        backgroundColor: '#881337',
       },
     ],
   };
