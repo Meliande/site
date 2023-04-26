@@ -4,8 +4,10 @@ import Link from "next/link";
 import { Logo } from "./Logo";
 import {TwitterIcon, LinkedinIcon, Sun, Moon, GitHub} from "./Icons";
 import { motion } from "framer-motion"
+import { usePathname } from 'next/navigation';
 
 const CustomLink = ({href="", title="", className=""}) => {
+    const pathname = usePathname();
     return (
         <Link href={href} className={`${className} relative group`}>
             {title}
@@ -13,6 +15,7 @@ const CustomLink = ({href="", title="", className=""}) => {
                 className={`
                     h-1 w-0 inline-block bg-black absolute left-0 -bottom-0.5
                     group-hover:w-full transition-[width] ease duration-300
+                    ${pathname === href ? 'w-full' : 'w-0'}
                 `
                 }
             >

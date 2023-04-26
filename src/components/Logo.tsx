@@ -18,7 +18,17 @@ export function Logo() {
                     hover:
                 "
                 whileHover={{
-                    backgroundColor:["#121212", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#121212"],
+                    backgroundColor:[
+                        "#121212",
+                        "rgba(3, 201, 169,1)",
+                        "rgba(150,54,148,1)",
+                        "rgba(252,176,69,1)",
+                        "rgba(65,147,169,1)",
+                        "rgba(130,94,92,1)",
+                        "rgba(217,30,24,1)",
+                        "rgba(166,145,92,1)",
+                        "#121212"
+                    ],
                     transition:{duration:1, repeat: Infinity},
                 }}
             >
