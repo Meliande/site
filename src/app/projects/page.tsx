@@ -1,9 +1,11 @@
-import { NavBar } from "@/components/NavBar";
+import TransitionEffect from "@/components/TransitionEffect";
 
-export default function Projects() {
-    return(
-        <div className="text-black">
-            <NavBar/>
+const Projects = () => {
+    return ( 
+        <div>
+            <TransitionEffect/>
         </div>
-    )
+     );
 }
+ 
+export default Projects;

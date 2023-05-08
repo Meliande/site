@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import {motion} from "framer-motion"
-import { transcode } from "buffer";
 
 const MotionLink = motion(Link);
 
@@ -14,8 +13,7 @@ export function Logo() {
                 className="
                     w-16 h-16 bg-black text-white 
                     flex items-center justify-center rounded-full
-                    text-2xl font-bold
-                    hover:
+                    text-2xl font-bold border border-solid border-transparent dark:border-white
                 "
                 whileHover={{
                     backgroundColor:[
