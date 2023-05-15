@@ -117,39 +117,31 @@ const Projects = () => {
                     <div className="col-span-12">
                         <FeaturedProject
                             title="Bolsis"
-                            summary="Descrição"
-                            img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/nlw-copa.png"
-                            github="/"
+                            summary="Web application developed for the Federal University of Bahia along with colleagues, the purpose of this
+                            application is to manage scholarship for the postgraduate students.
+                            "
+                            img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/bolsis.png"
+                            github="https://github.com/orgs/mate85-equipe03/repositories"
                             link="/"
                             type="Featured Project"
                         />
                     </div>
                     <div className="col-span-6 sm:col-span-12">
                         <Project 
-                            title="PROJETO MUITO GRANDE"
+                            title="NLW-Cup"
                             img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/nlw-copa.png"
-                            github=""
+                            github="https://github.com/Meliande/nlw-copa"
                             link=""
                             type="Project"
                         />
                     </div>
                     <div className="col-span-6 sm:col-span-12">
                         <Project 
-                            title="PROJETO MUITO GRANDE"
-                            img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/nlw-copa.png"
-                            github=""
+                            title="NLW-Esport"
+                            img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/nlw-esports.png"
+                            github="https://github.com/Meliande/nlw-esports"
                             link=""
                             type="Project"
-                        />
-                    </div>
-                    <div className="col-span-12">
-                        <FeaturedProject
-                            title="Bolsis"
-                            summary="Descrição"
-                            img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/nlw-copa.png"
-                            github="/"
-                            link="/"
-                            type="Featured Project"
                         />
                     </div>
                 </div>
