@@ -122,7 +122,7 @@ const Projects = () => {
                             "
                             img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/bolsis.png"
                             github="https://github.com/orgs/mate85-equipe03/repositories"
-                            link="/"
+                            link="https://github.com/orgs/mate85-equipe03/repositories"
                             type="Featured Project"
                         />
                     </div>
@@ -131,7 +131,7 @@ const Projects = () => {
                             title="NLW-Cup"
                             img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/nlw-copa.png"
                             github="https://github.com/Meliande/nlw-copa"
-                            link=""
+                            link="https://github.com/Meliande/nlw-copa"
                             type="Project"
                         />
                     </div>
@@ -140,7 +140,7 @@ const Projects = () => {
                             title="NLW-Esport"
                             img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/nlw-esports.png"
                             github="https://github.com/Meliande/nlw-esports"
-                            link=""
+                            link="https://github.com/Meliande/nlw-esports"
                             type="Project"
                         />
                     </div>
