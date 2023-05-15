@@ -53,7 +53,7 @@ const About = () => {
                             </p>
                         </div>
                         <div className="
-                            col-span-3 relative h-max rounded-2xl border-2
+                            col-span-3 relative h-max rounded-2xl border-2 items-center
                             border-solid border-black bg-white p-8 dark:bg-black dark:border-white xl:col-span-8 md:order-1">
                             <div className=" absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-black dark:bg-white"/>
                             <Image
