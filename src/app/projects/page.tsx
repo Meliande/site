@@ -25,15 +25,16 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({
 }) => {
   return (
     <article
-      className="w-full flex items-center justify-between rounded-3xl relative rounded-br-2xl
-            border border-solid border-black bg-white shadow-2xl p-12 dark:bg-black dark:border-white
-            lg:!flex-col lg:!p-8 xs:!rounded-2xl xs:!rounded-br-3xl xs:!p-4
-            "
+      className="
+        w-full flex items-center justify-between rounded-3xl relative rounded-br-2xl
+        border border-solid border-black bg-white shadow-2xl p-12 dark:bg-black dark:border-white
+        lg:!flex-col lg:!p-8 xs:!rounded-2xl xs:!rounded-br-3xl xs:!p-4
+        "
     >
       <div
         className="
-                    absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]
-                    bg-black rounded-br-3xl dark:bg-white xs:!-right-2 sm:!h-[102%] xs:!w-full xs:!rounded-[1.5rem]"
+          absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]
+          bg-black rounded-br-3xl dark:bg-white xs:!-right-2 sm:!h-[102%] xs:!w-full xs:!rounded-[1.5rem]"
       />
       <Link
         href={link}
@@ -73,10 +74,10 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({
             href={link}
             target="blank"
             className="
-                            ml-4 rounded-lg bg-black text-white
-                            p-2 px-6 text-lg font-semibold dark:bg-white dark:text-black
-                            sm:!px-4 sm:!text-base
-                            "
+              ml-4 rounded-lg bg-black text-white
+              p-2 px-6 text-lg font-semibold dark:bg-white dark:text-black
+              sm:!px-4 sm:!text-base
+              "
           >
             Visit project
           </Link>
@@ -170,6 +171,34 @@ const Projects = () => {
           className="mb-16 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl"
         />
         <div className="grid grid-cols-12 gap-24 gap-y-32 xl:!gap-x-16 lg:!gap-x-8 md:!gap-y-24 sm:!gap-x-0">
+          <div className="col-span-12">
+            <FeaturedProject
+              title="Messenger Clone"
+              summary="A fully functional web chat application built from scratch with Next, MongoDb, Prisma, TailwindCSS and Pusher"
+              img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/bolsis.png"
+              github="https://github.com/orgs/mate85-equipe03/repositories"
+              link="https://github.com/orgs/mate85-equipe03/repositories"
+              type="Featured Project"
+            />
+          </div>
+          <div className="col-span-6 sm:col-span-12">
+            <Project
+              title="NLW-Cup"
+              img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/nlw-copa.png"
+              github="https://github.com/Meliande/nlw-copa"
+              link="https://github.com/Meliande/nlw-copa"
+              type="Project"
+            />
+          </div>
+          <div className="col-span-6 sm:col-span-12">
+            <Project
+              title="NLW-Esport"
+              img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/nlw-esports.png"
+              github="https://github.com/Meliande/nlw-esports"
+              link="https://github.com/Meliande/nlw-esports"
+              type="Project"
+            />
+          </div>
           <div className="col-span-12">
             <FeaturedProject
               title="Bolsis"
