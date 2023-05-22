@@ -174,28 +174,28 @@ const Projects = () => {
           <div className="col-span-12">
             <FeaturedProject
               title="Messenger Clone"
-              summary="A fully functional web chat application built from scratch with Next, MongoDb, Prisma, TailwindCSS and Pusher"
-              img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/bolsis.png"
-              github="https://github.com/orgs/mate85-equipe03/repositories"
-              link="https://github.com/orgs/mate85-equipe03/repositories"
+              summary="A fully functional web chat application built from scratch with Next, MongoDb, Prisma, TailwindCSS and Pusher. Allows social login with both Github and Google accounts"
+              img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/messenger.png"
+              github="https://github.com/Meliande/messenger-clone"
+              link="https://messenger-clone-meliande.vercel.app/"
               type="Featured Project"
             />
           </div>
           <div className="col-span-6 sm:col-span-12">
             <Project
-              title="NLW-Cup"
-              img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/nlw-copa.png"
-              github="https://github.com/Meliande/nlw-copa"
-              link="https://github.com/Meliande/nlw-copa"
+              title="NLW-Spacetime"
+              img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/spacetime.png"
+              github="https://github.com/Meliande/nlw-spacetime"
+              link="https://github.com/Meliande/nlw-spacetime"
               type="Project"
             />
           </div>
           <div className="col-span-6 sm:col-span-12">
             <Project
-              title="NLW-Esport"
-              img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/nlw-esports.png"
-              github="https://github.com/Meliande/nlw-esports"
-              link="https://github.com/Meliande/nlw-esports"
+              title="NLW-Habits"
+              img="https://raw.githubusercontent.com/Meliande/site/main/public/img/projects/habits.png"
+              github="https://github.com/Meliande/nlw-setup"
+              link="https://github.com/Meliande/nlw-setup"
               type="Project"
             />
           </div>
