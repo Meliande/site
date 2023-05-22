@@ -36,8 +36,8 @@ const Home = () => {
               </p>
               <div className="flex items-center self-start mt-2 gap-2 lg:self-center">
                 <Link
-                  href="/"
-                  target=""
+                  href="/img/resume.pdf"
+                  target="_blank"
                   className="
                     flex items-center bg-black text-white
                     p-2.5 px-6 rounded-lg text-lg font-semibold
@@ -46,7 +46,7 @@ const Home = () => {
                     dark:bg-white dark:text-black hover:dark:bg-black hover:dark:text-white
                     hover:dark:border-white md:p-2 md:px-4 md:text-base
                   "
-                  download={false}
+                  download={true}
                 >
                   Resume <ExternalLink className={'w-6 ml-1'} />
                 </Link>
