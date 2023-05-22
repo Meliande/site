@@ -1,8 +1,10 @@
+/* eslint-disable @next/next/no-before-interactive-script-outside-document */
 import NavBar from '@/components/NavBar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
 import Script from 'next/script'
+import React from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,11 +18,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-
   return (
     <html lang="en">
       <body className={`${inter.className} bg-white dark:bg-black w-full`}>
-        <Script id='Theme' strategy='beforeInteractive'>
+        <Script id="Theme" strategy="beforeInteractive">
           {`if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark')
             } else {
@@ -28,9 +29,9 @@ export default function RootLayout({
             }
           `}
         </Script>
-        <NavBar/>
+        <NavBar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   )
