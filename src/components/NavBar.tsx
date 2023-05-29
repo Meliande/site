@@ -123,7 +123,7 @@ const NavBar = () => {
 
         <nav className="flex items-center justify-center flex-wrap text-4xl gap-6">
           <motion.a
-            href="https://twitter.com/Melimotion.andeRodrigo"
+            href="https://twitter.com/MeliandeRodrigo"
             target="blank"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
