@@ -25,7 +25,7 @@ const Home = () => {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Developing web applications to help you achieve your goals."
+                text="Hello, i'm Rodrigo, your Next(js) fullstack developer."
                 className="!text-6xl !text-left
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
